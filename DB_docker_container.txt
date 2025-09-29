@@ -1,0 +1,7 @@
+docker run -d \
+  --name laundry_service \
+  -e POSTGRES_USER=postgres\
+  -e POSTGRES_PASSWORD=postgres \
+  -e POSTGRES_DB=laundry_service \
+  -p 5433:5433 \
+  postgres:16

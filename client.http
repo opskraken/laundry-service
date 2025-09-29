@@ -1,0 +1,12 @@
+GET http://localhost:5500/users/register
+Content-Type: application/json
+
+{
+    "username":"alhasib",
+    "email":"hasib@gmail.com",
+    "password":"123456",
+    "status":"HASIB",
+    "is_shop_owner":false
+}
+
+### 

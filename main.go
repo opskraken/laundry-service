@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/enghasib/laundry_service/cmd"
+)
 
 func main() {
-	fmt.Println("Online Laundry Service")
+	cmd.Serve()
 }
